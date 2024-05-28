@@ -1,0 +1,545 @@
+.container{
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;   
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.service2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.topService h4{
+    color: var(--secondary-yellow, #C19D59);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    width: 13.2%;
+    line-height: normal;
+}
+
+.topService h2{
+    color: var(--black, #1F1F21);
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 50%;
+    padding: 2rem 0;
+}
+
+.serviceCard1{
+    position: relative;
+}
+
+.myImage{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.serviceCard2{
+    position: relative;
+}
+
+.serviceCard3{
+    position: relative;
+}
+
+.myText{
+    background: #1429A9;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    height: 0;
+}
+
+.serviceCard1:hover .myText{
+    height: 100%;
+}
+.serviceCard2:hover .myText{
+    height: 100%;
+}
+.serviceCard3:hover .myText{
+    height: 100%;
+}
+
+.myText h2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 2rem 0 0 2rem;
+}
+
+.myText h5{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 0 0 2rem;
+}
+
+.myText p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.5%;
+    padding: 2rem;
+}
+
+.myText2{
+    background: #1429A9;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    height: 0;
+}
+
+.serviceCard1:hover .myText2{
+    height: 100%;
+}
+.serviceCard2:hover .myText2{
+    height: 100%;
+}
+.serviceCard3:hover .myText2{
+    height: 100%;
+}
+
+.myText2 h2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 2rem 0 0 2rem;
+}
+
+.myText2 h5{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 0 0 2rem;
+}
+
+.myText2 p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.5%;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .topService h2{
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .topService h4{
+        font-size: 20px;
+        width: 14.5%;
+    }
+
+    .service{
+        gap: 1rem;
+    }
+    
+    .service2{
+        gap: 1rem;
+    }
+
+    .myText h2{
+        font-size: 22px;
+        padding: 1rem 2rem 0 2rem;
+    }
+    
+    .myText h5{
+        font-size: 20px;
+        padding: 1rem 0 0 2rem;
+    }
+    
+    .myText p{
+        font-size: 14px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    .myText2 h2{
+        font-size: 22px;
+        padding: 1rem 2rem 0 2rem;
+    }
+    
+    .myText2 h5{
+        font-size: 20px;
+        padding: 1rem 0 0 2rem;
+    }
+    
+    .myText2 p{
+        font-size: 14px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .myText h2{
+        font-size: 18px;
+        padding: 1rem 1rem 0 1rem;
+    }
+    
+    .myText h5{
+        font-size: 20px;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .myText p{
+        font-size: 12px;
+        padding: 1rem 2rem 0 1rem;
+    }
+
+    .myText2 h2{
+        font-size: 18px;
+        padding: 1rem 2rem 0 1rem;
+    }
+    
+    .myText2 h5{
+        font-size: 20px;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .myText2 p{
+        font-size: 12px;
+        padding: 1rem 2rem 0 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 845px) {
+
+    .myText h2{
+        font-size: 16px;
+        padding: 1rem 1rem 0 1rem;
+    }
+    
+    .myText h5{
+        font-size: 18px;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .myText p{
+        font-size: 11px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .myText2 h2{
+        font-size: 16px;
+        padding: 1rem 2rem 0 1rem;
+    }
+    
+    .myText2 h5{
+        font-size: 18px;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .myText2 p{
+        font-size: 11px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    
+}
+@media screen and (max-width: 778px) {
+
+    .myText h2{
+        font-size: 16px;
+        padding: .5rem 1rem 0 1rem;
+    }
+    
+    .myText h5{
+        font-size: 18px;
+        padding: .5rem 0 0 1rem;
+    }
+    
+    .myText p{
+        font-size: 11px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .myText2 h2{
+        font-size: 14px;
+        padding: .5rem 2rem 0 1rem;
+    }
+    
+    .myText2 h5{
+        font-size: 18px;
+        padding: .5rem 0 0 1rem;
+    }
+    
+    .myText2 p{
+        font-size: 10.5px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    
+}
+@media screen and (max-width: 720px) {
+
+    .myText h2{
+        font-size: 16px;
+        padding: .5rem 1rem 0 1rem;
+    }
+    
+    .myText h5{
+        font-size: 18px;
+        padding: .5rem 0 0 1rem;
+    }
+    
+    .myText p{
+        font-size: 10px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .myText2 h2{
+        font-size: 14px;
+        padding: .5rem 2rem 0 1rem;
+    }
+    
+    .myText2 h5{
+        font-size: 18px;
+        padding: .5rem 0 0 1rem;
+    }
+    
+    .myText2 p{
+        font-size: 10px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px){
+    .topService h2{
+        font-size: 24px;
+        width: 90%;
+    }
+
+    .topService h4{
+        font-size: 18px;
+        width: 28.5%;
+    }
+
+    .service{
+        display: block;
+        
+    }
+    
+    .service2{
+        display: block;
+    }
+
+    .serviceCard1 img{
+        margin-bottom: 2rem;
+    }
+    
+    .serviceCard3 img{
+        margin-bottom: 2rem;
+    }
+
+    .myText h2{
+        font-size: 26px;
+        padding: .5rem 1rem 0 2rem;
+    }
+    
+    .myText h5{
+        font-size: 20px;
+        padding: .5rem 0 0 2rem;
+    }
+    
+    .myText p{
+        font-size: 14px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    .myText2 h2{
+        font-size: 30px;
+        padding: 8rem 1rem 0 2rem;
+    }
+    
+    .myText2 h5{
+        font-size: 24px;
+        padding: 1rem 0 0 2rem;
+    }
+    
+    .myText2 p{
+        font-size: 16px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .myText h2{
+        font-size: 26px;
+        padding: .5rem 1rem 0 2rem;
+    }
+    
+    .myText h5{
+        font-size: 20px;
+        padding: .5rem 0 0 2rem;
+    }
+    
+    .myText p{
+        font-size: 13px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    .myText2 h2{
+        font-size: 30px;
+        padding: 6rem 1rem 0 2rem;
+    }
+    
+    .myText2 h5{
+        font-size: 24px;
+        padding: 1rem 0 0 2rem;
+    }
+    
+    .myText2 p{
+        font-size: 16px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .myText h2{
+        font-size: 24px;
+        padding: .5rem 1rem 0 2rem;
+    }
+    
+    .myText h5{
+        font-size: 20px;
+        padding: .5rem 0 0 2rem;
+    }
+    
+    .myText p{
+        font-size: 12px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    .myText2 h2{
+        font-size: 26px;
+        padding: 6rem 1rem 0 2rem;
+    }
+    
+    .myText2 h5{
+        font-size: 20px;
+        padding: 1rem 0 0 2rem;
+    }
+    
+    .myText2 p{
+        font-size: 15px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+}
+@media screen and (max-width: 410px){
+    .myText h2{
+        font-size: 20px;
+        padding: .5rem 1rem 0 1rem;
+    }
+    
+    .myText h5{
+        font-size: 16px;
+        padding: .5rem 0 0 1rem;
+    }
+    
+    .myText p{
+        font-size: 11px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .myText2 h2{
+        font-size: 26px;
+        padding: 4rem 1rem 0 2rem;
+    }
+    
+    .myText2 h5{
+        font-size: 20px;
+        padding: 1rem 0 0 2rem;
+    }
+    
+    .myText2 p{
+        font-size: 15px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+}
+@media screen and (max-width: 358px){
+    .myText h2{
+        font-size: 20px;
+        padding: .5rem 1rem 0 1rem;
+    }
+    
+    .myText h5{
+        font-size: 14px;
+        padding: .5rem 0 0 1rem;
+    }
+    
+    .myText p{
+        font-size: 10.5px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .myText2 h2{
+        font-size: 26px;
+        padding: 3rem 1rem 0 2rem;
+    }
+    
+    .myText2 h5{
+        font-size: 20px;
+        padding: 1rem 0 0 2rem;
+    }
+    
+    .myText2 p{
+        font-size: 15px;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+}

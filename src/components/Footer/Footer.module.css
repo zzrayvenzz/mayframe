@@ -1,0 +1,204 @@
+.container{
+    width: 100%;
+    background: #F7F8FF;
+    margin-top: 4rem;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.logoSide p{
+    margin-top: .7rem;
+    color: var(--black, #1F1F21);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%;
+    width: 70%;
+}
+
+.logoAddress{
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logoAddress p{
+    color: var(--black, #1F1F21);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%;
+}
+
+.followUs{
+    display: flex;
+    gap: 3rem;
+}
+
+.follow h4{
+    color: var(--mayframe-colour, #1429A9);
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.5%;
+    padding-bottom: 2rem;
+}
+
+.follow p{
+    color: var(--black, #1F1F21);
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.5%;
+    padding-bottom: 1rem;
+}
+
+.follow p:hover{
+    cursor: pointer;
+    color: #1429A9;
+}
+
+.followIcons img{
+    padding-right: .8rem;
+    cursor: pointer;
+}
+
+.logoAddress img{
+    margin-top: .5rem;
+}
+
+.scrollUp {
+    position: relative;
+  }
+  .iconscroll {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 2;
+    fill: var(--secondary-yellow, #c19d59);
+    width: 48px;
+    height: 48px;
+  }
+
+@media screen and (max-width: 1024px){
+    .follow p{
+        font-size: 18px;
+    }
+
+    .followUs{
+        gap: 2rem;
+        width: 80%;
+    }
+
+    .followIcons img{
+        padding-right: .2rem;
+    }
+
+    .follow h4{
+        font-size: 18px;
+        padding-bottom: 1rem;
+    }
+
+    .logoSide p{
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .logoAddress{
+        margin-top: .3rem;
+    }
+
+    .follow{
+        width: 90%;
+    }
+
+    /* .logoAddress img{
+        margin-top: .5rem;
+    } */
+}
+
+@media screen and (max-width: 768px){
+    .footerLogo{
+        width: 60%;
+    }
+
+    .follow h4{
+        font-size: 14px;
+        padding-bottom: 1rem;
+    }
+
+    .logoSide p{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .follow p{
+        font-size: 14px;
+    }
+
+    .logoAddress p{
+        font-size: 14px;
+    }
+
+    .followUs{
+        gap: 1rem;
+        width: 85%;
+    }
+
+    .follow{
+        width: 90%;
+    }
+
+    /* .iconscroll {
+        width: 35px;
+        height: 35px;
+        bottom: 40px;
+        right: 0px;
+      } */
+
+
+}
+
+@media screen and (max-width: 660px){
+    .footerLogo{
+        width: 35%;
+        margin-bottom: 1rem;
+    }
+
+    .innerContainer{
+        display: block;
+    }
+
+    .followUs{
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .follow{
+        margin: 1rem 0;
+    }
+
+    .followIcons img{
+        padding-right: .5rem;
+    }
+
+    /* .iconscroll {
+        width: 35px;
+        height: 35px;
+        bottom: 40px;
+        right: 0px;
+      } */
+   
+
+}
